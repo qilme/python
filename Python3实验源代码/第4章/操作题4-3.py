@@ -1,0 +1,5 @@
+a,*b=eval(input('请输入多个数(逗号分隔)：'))
+b.insert(0,a)
+print('原列表：',b)
+b.sort(reverse=True)
+print('排序后：',b)

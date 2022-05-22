@@ -1,0 +1,5 @@
+a=eval(input('请输入一个不大于255的正整数：'))
+b=bin(a)[2:].zfill(8)
+print('  二进制：%s'%b)
+print('  八进制：%08o'%a)
+print('十六进制：%08X'%a)

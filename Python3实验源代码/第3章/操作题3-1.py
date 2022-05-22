@@ -1,0 +1,5 @@
+a,b=eval(input('请输入两个数：'))
+print(a,'+',b,'=',a+b)
+print(a,'-',b,'=',a-b)
+print(a,'*',b,'=',a*b)
+print(a,'/',b,'=',round(a/b,2))

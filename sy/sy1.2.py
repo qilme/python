@@ -1,0 +1,16 @@
+from turtle import *
+speed(0)
+pu()
+fd(150)
+seth(90)
+fd(150)
+for i in range(3):
+    pd()
+    circle(150, -180)
+    pu()
+    fd(300)
+    left(90)
+    pd()
+    circle(150, 180)
+ht()
+done()

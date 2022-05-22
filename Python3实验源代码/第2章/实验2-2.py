@@ -1,0 +1,5 @@
+a = eval(input('请输入第1个数：'))
+b = eval(input('请输入第2个数：'))
+f = open('out2-2.txt', 'w')
+print(a, '+', b, '=', a + b, file=f)
+f.close()

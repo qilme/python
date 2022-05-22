@@ -1,0 +1,5 @@
+f=open('outtest2-6.txt','w')
+print('Python',file=f)
+print('Java',file=f)
+print('C++',file=f)
+f.close()
