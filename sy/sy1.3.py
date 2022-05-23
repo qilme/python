@@ -1,3 +1,4 @@
+# 编写程序，输出如下图形，每层图形色彩随机生成
 from turtle import *
 from random import *
 colormode(255)

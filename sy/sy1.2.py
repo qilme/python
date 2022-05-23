@@ -1,3 +1,4 @@
+# 使用turtle库的turtle.circle()函数，turtle.seth()函数，turtle.left()函数绘制一个四瓣花图案，效果如图所示。
 from turtle import *
 speed(0)
 pu()
